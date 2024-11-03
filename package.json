@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "npm run pyodide:fetch && vite dev --host",
-		"build": "npm run pyodide:fetch && vite build",
+		"build": "your-build-command --output dist",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -98,7 +98,4 @@
 		"node": ">=18.13.0 <=22.x.x",
 		"npm": ">=6.0.0"
 	}
-}
-"scripts": {
-  "build": "your-build-command --output dist"
 }
