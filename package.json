@@ -99,3 +99,6 @@
 		"npm": ">=6.0.0"
 	}
 }
+"scripts": {
+  "build": "your-build-command --output dist"
+}
